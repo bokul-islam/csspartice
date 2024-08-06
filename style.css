@@ -1,59 +1,103 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
-#container{
-    background-color: rgba(135, 255, 175, 0.9);
-    height: auto;
-    border: 5px solid red;
-    background-image: url(images/logo.jpg);
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+body{
+    
+    color: rgb(255, 0, 0);
+    background-color: aquamarine;
+    height: 1500px;
+    width: 100%;
+   
 }
-.p1{
-    background-color: rebeccapurple;
-    text-align: center;
-    color: #ffffff;
-    border: 3px solid red;
-    margin: 20px;
-}
-.sec{
+ul{
     background-color: black;
-    height: 150px;
+    padding: 20px;
+}
+ul li{
+    background-color: yellowgreen;
     margin: 12px;
-    border: 10px solid red;
 }
-.sec p{
-    color: aliceblue;
-    padding: 12px;
-    text-align: center;    
+a{
+    background-color: blueviolet;
+    padding: 15px;
+    text-decoration: none;
+    color: antiquewhite;
 }
-.third{
-background-color: aqua;
-height: 100px;
-border-top: 10px solid green;
-margin: 20px;
+a:hover{
+    background-color: rgb(22, 255, 166);
+    padding: 15px;
+    text-decoration: underline;
+    color: rgb(8, 5, 0);
 }
-.third h2{
-    padding: 20px;
-    text-decoration: overline underline;
-    text-decoration-color: red;
-    text-decoration-thickness: 5px;
-    text-decoration-style: double;
+a:visited{
+    background-color: rgb(255, 0, 0);
+    padding: 15px;
+    text-decoration: underline;
+    color: rgb(8, 5, 0);
+    border: 1px solid red ;
 }
-.four{
-    background-color: rgb(113, 81, 253);
-    height: 400px;
-    border: 35px solid yellow;
-    margin: 35px;
-    }
-.four h3{
-    padding: 20px;
-    text-shadow: 2px 3px 5px greenyellow;
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    overflow-x: auto;
 }
+th{
+    height: 50px;
+    background-color: rgb(0, 170, 71);
+    color: beige;
+}
+table,th,td{
+    width: 50%;
+    border: 1px solid greenyellow;
+}
+td{
+    text-align: center;
+    vertical-align: center;
+}
+th,td{
+    padding: 15px;
+    border-bottom: 1px solid red;
+}
+tr:nth-child(odd){
+    background-color: rgb(4, 130, 202);
+    color: black;
+}
+div.relative {
+    margin: 20px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #000000;
+    background-color: rgb(0, 116, 58);
+    z-index: 1;
+  } 
+  div.absolute{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #000000;
+    top: 50px;
+    right: 40px;
+    bottom: 30px;
+    background-color: red;
+    z-index: 7;
+  }
+  div.hello{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #000000;
+    top: 0px;
+    right: 40px;
+    bottom: 30px;
+    background-color: rgb(149, 231, 16);
+    z-index: 2;
+  }
+  .center{
+    background-color: red;
+    height: 200px;
+    width: 45%;
+    margin: auto;
+  }
+
+
