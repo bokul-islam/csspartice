@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    background-color: rgba(135, 255, 175, 0.9);
+    height: auto;
+    border: 5px solid red;
+    background-image: url(images/logo.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.p1{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid red;
+    margin: 20px;
+}
+.sec{
+    background-color: black;
+    height: 150px;
+    margin: 12px;
+    border: 10px solid red;
+}
+.sec p{
+    color: aliceblue;
+    padding: 12px;
+    text-align: center;    
+}
+.third{
+background-color: aqua;
+height: 100px;
+border-top: 10px solid green;
+margin: 20px;
+}
+.third h2{
+    padding: 20px;
+    text-decoration: overline underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-decoration-style: double;
+}
+.four{
+    background-color: rgb(113, 81, 253);
+    height: 400px;
+    border: 35px solid yellow;
+    margin: 35px;
+    }
+.four h3{
+    padding: 20px;
+    text-shadow: 2px 3px 5px greenyellow;
+}
